@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "messangercaal": {
+      "hosting": {
+        "messangerCaAl": [
+          "messangercaal"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "messangercaal"
+  }
+}

@@ -1,4 +1,50 @@
+:root {
+    --light-gray: #c8c8c8d6;
+    --seccond-bg-color: #35a8a8;
+    --icon-size: 20px;
+}
+
 body {
     margin: 0;
     font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.displayTable {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+    text-align: center;
+    background-color: var(--light-gray);
+    color: #fff;
+    letter-spacing: 0.5px;
+}
+
+.authBlock {
+    background-color: #cccdd1;
+    padding: 125px 100px;
+    position: relative;
+    border: solid 3px #fff;
+    border-radius: 8px;
+    h2 {
+        position: absolute;
+        top: -15px;
+        background-color: var(--seccond-bg-color);
+        padding: 16px;
+        left: 50px;
+        right: 50px;
+        text-transform: uppercase;
+        letter-spacing: 1.7px;
+    }
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.icon {
+    height: var(--icon-size);
+    cursor: pointer;
 }

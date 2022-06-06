@@ -15,16 +15,23 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { environment } from '../environments/environment';
 
+// MATERIAL
+import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatDialogModule} from '@angular/material/dialog';
+import {MatInputModule} from '@angular/material/input';
+import {MatIconModule} from '@angular/material/icon';
+// MATERIAL END
+
 // SIGN IN
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { SignInComponent } from './components/signing/sign-in/sign-in.component';
 import { SignUpComponent } from './components/signing/sign-up/sign-up.component';
 import { ForgotPasswordComponent } from './components/signing/forgot-password/forgot-password.component';
 import { VerifyEmailComponent } from './components/signing/verify-email/verify-email.component';
+import { FormsModule } from '@angular/forms';
 // SIGN IN END
 
-// MATERIAL
-import {MatInputModule} from '@angular/material/input';
+
 
 @NgModule({
   declarations: [
@@ -44,7 +51,11 @@ import {MatInputModule} from '@angular/material/input';
     AngularFireStorageModule,
     AngularFirestoreModule,
     AngularFireDatabaseModule,
-    MatInputModule
+    MatInputModule,
+    MatSidenavModule,
+    MatDialogModule,
+    FormsModule,
+    MatIconModule
   ],
   providers: [AuthService],
   bootstrap: [AppComponent]

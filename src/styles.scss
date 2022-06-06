@@ -39,6 +39,11 @@ body {
     }
 }
 
+.redirect {
+    color: var(--seccond-bg-color);
+    cursor: pointer;
+}
+
 body {
     margin: 0;
     font-family: Roboto, "Helvetica Neue", sans-serif;
@@ -47,4 +52,11 @@ body {
 .icon {
     height: var(--icon-size);
     cursor: pointer;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: #35a8a8;
+    color: #fff;
+    margin: 8px;
 }
